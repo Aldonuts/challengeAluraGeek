@@ -1,0 +1,70 @@
+{
+  "productos": [
+    {
+      "nombre": "Stormtrooper",
+      "precio": "15",
+      "imagen": "/img/productos/stormtrooper.png",
+      "id": 1
+    },
+    {
+      "nombre": "Game Boy Classic",
+      "precio": "60",
+      "imagen": "/img/productos/gameboy.png",
+      "id": 3
+    },
+    {
+      "nombre": "Game Boy Classic",
+      "precio": "60",
+      "imagen": "/img/productos/gameboy.png",
+      "id": 4
+    },
+    {
+      "nombre": "Game Boy Classic",
+      "precio": "60",
+      "imagen": "/img/productos/gameboy.png",
+      "id": 5
+    },
+    {
+      "nombre": "Game Boy Classic",
+      "precio": "60",
+      "imagen": "/img/productos/gameboy.png",
+      "id": 6
+    },
+    {
+      "nombre": "Game Boy Classic",
+      "precio": "60",
+      "imagen": "/img/productos/gameboy.png",
+      "id": 7
+    },
+    {
+      "nombre": "Game Boy Classic",
+      "precio": "60",
+      "imagen": "/img/productos/gameboy.png",
+      "id": 8
+    },
+    {
+      "nombre": "Game Boy Classic",
+      "precio": "60",
+      "imagen": "/img/productos/gameboy.png",
+      "id": 9
+    },
+    {
+      "nombre": "Game Boy Classic",
+      "precio": "60",
+      "imagen": "/img/productos/gameboy.png",
+      "id": 10
+    },
+    {
+      "nombre": "Game Boy Classic",
+      "precio": "60",
+      "imagen": "/img/productos/gameboy.png",
+      "id": 11
+    },
+    {
+      "nombre": "Xbox",
+      "precio": "120",
+      "imagen": "https://m.media-amazon.com/images/I/512ulOXnvYL._AC_UF1000,1000_QL80_.jpg",
+      "id": 12
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge AluraGeek</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="/img/logoWhite.svg" alt="Logo de AluraGeek">
+    </header>
+    <main>
+        <section class="listaProductos">
+            <h1>MIS PRODUCTOS:</h1>
+            <div data-lista-productos>
+                
+            </div>
+        </section>
+        <section class="formulario">
+            <h1>AGREGAR PRODUCTO:</h1>
+            <form action="" data-formulario>
+                <input type="text" placeholder="nombre..." data-nombre>
+                <input type="number" placeholder="precio..." name="" id="" data-precio>
+                <input type="text" placeholder="imagen..." name="" id="" data-imagen>
+                <div class="botonesFormulario">
+                    <button type="submit">Enviar</button>
+                    <button type="button">Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <img src="/img/logoWhite.svg" alt="" class="logoFooter">
+        <h4>DESARROLLADO POR ALDO SG</h4>
+        <h5>ALURA LATAM - 2024</h5>
+    </footer>
+    <script src="/js/conexionAPI.js" type="module"></script>
+    <script src="/js/mostrarProductos.js" type="module"></script>
+    <script src="/js/agregarProducto.js" type="module"></script>
+    <script src="/js/eliminarProducto.js"></script>
+</body>
+</html>

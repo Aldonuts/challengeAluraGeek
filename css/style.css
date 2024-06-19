@@ -1,0 +1,191 @@
+header{
+    background-color: #5300C8;
+    display: flex;
+    justify-content: center;
+    padding-block: 5px;
+}
+
+main{
+    display: flex;
+    padding-top: 100px;
+    padding-inline: 50px;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: white;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(222, 222, 222);
+    border-radius: 10px;
+}
+
+h1{
+    font-family: "Press Start 2P";
+    font-size: 24px;
+    text-align: center;
+}
+
+h2{
+    font-family: "Press Start 2P";
+    font-size: 20px;
+    text-align: center;
+}
+
+.listaProductos{
+    max-height: 50vh;
+    width: 55%;
+}
+
+[data-lista-productos]{
+    margin-top: 30px;
+    height: 100%;
+    overflow-y: scroll;
+    box-shadow: -6px 6px 5px 0px rgba(0,0,0,0.25);
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around
+}
+
+.productoLista{
+    margin-top: 30px;
+    background-color: #5D04D9;
+    width: fit-content;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: 5px solid black;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.imgProducto{
+    width: 150px;
+}
+
+.productoLista h4{
+    margin-top: 5px;
+}
+
+.productoLista h3{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.parteInferiorCard{
+    display: flex;
+    justify-content: space-between;
+}
+
+.textoErrorProductos{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.formulario{
+    width: 35%;
+}
+
+form input{
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 30px;
+    border: 3px solid #03318C;
+    color: #03318C;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+form input::placeholder{
+    color: #03318C;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.botonesFormulario{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.botonesFormulario button{
+    font-size: 20px;
+    width: 45%;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.botonesFormulario button:first-child{
+    background-color: #03318C;
+    color: white;
+    border: none;
+}
+
+.botonesFormulario button:nth-child(2){
+    background-color: white;
+    border: 3px solid #03318C;
+    color: #03318C;
+}
+
+footer{
+    background-color: #5300C8;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 30px;
+    position: absolute;
+    bottom: 0;
+}
+
+.logoFooter{
+    width: 300px;
+}
+
+h4{
+    margin-top: 5px;
+    color: white;
+}
+
+h5{
+    margin-top: 10px;
+    color: rgb(186, 186, 186);
+}
+
+@media (max-width: 768px){
+    main{
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .listaProductos{
+        order: 1;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    [data-lista-productos]{
+        flex-wrap: nowrap;
+        gap: 10px;
+    }
+
+    .formulario{
+        width: 100%;
+    }
+}
